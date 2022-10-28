@@ -1,0 +1,103 @@
+body{
+    front-family:arial;
+    font-size: 20px;
+    text-align:justify;
+    margin: 0%;
+    background-color: beige;
+
+    }
+
+    header{
+        background-color: gray;
+        padding: 20px 0;
+    }
+
+    .caixa{
+        position: relative;
+        width: 940px;
+        margin: 0%;
+    }
+    nav{
+        position: absolute;
+        top: 110px;
+        right: 0%;
+    }
+
+    nav li{  display:inline;
+        margin: 0 0 0 20px;
+    }
+
+    nav a {
+        text-transform: uppercase;
+        color: azure;
+        font-weight: bold;
+        font-size:22px;
+        text-decoration: none ;
+
+    }
+
+    nav a:hover{
+        color: yellow;
+        text-decoration: underline;
+        font-weight: 100;
+    }
+   .banner{
+       width: 100%;
+   }
+   .utensilios{
+       width: 120px;
+       float: left;
+       margin: 0 20px 20px 0;
+   }
+
+   .principal{
+       padding: 3em 0;
+       background-color:beige;
+       width: 1100px;
+       margin: 0 auto;
+   }
+   .principal p {
+       margin: 0 0 1em;
+   }
+
+   .mapa {
+       padding: 3em 0 ;
+       background:beige
+   }
+
+   .mapa{
+      width: 700px;
+      margin: 0 auto;
+   }
+   .titulo-principal{
+       text-align: center;
+   }
+
+   .Beneficios{
+       text-align: center;
+   }
+   
+   .beneficios{
+      padding: 3em 0;
+      background: beige; 
+   }
+   .conteudo-beneficios{
+       width: 640px;
+       margin: 0 auto ;
+   }
+   .lista-beneficios{
+       width: 40%;
+       display: inline-block;
+       vertical-align: top;
+   }
+
+   .imagem-beneficios{
+       width: 700px;
+       opacity: 1;
+       transition: 400ms;
+       box-shadow: 10px 10px 0 gray;
+   }
+   .itens{
+       line-height: 1.5;
+       list-style-type: "🎗"; <!-tirar as bolinhas em um topico->
+   }
